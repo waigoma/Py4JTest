@@ -77,10 +77,12 @@ import atexit
 
 
 def at_exit():
+  # Gatewayを閉じる
   gateway.shutdown()
   print("Gateway Server ShutDowned.)
 
-
+# Javaで建てたGatewayに接続
 gateway = JavaGateway()
+# 処理終了時、実行処理登録
 atexit.register(at_exit)
 ```
