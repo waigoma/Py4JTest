@@ -80,6 +80,7 @@ def at_exit():
   gateway.shutdown()
   print("Gateway Server ShutDowned.)
 
+
 gateway = JavaGateway()
 atexit.register(at_exit)
 ```
