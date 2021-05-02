@@ -88,6 +88,6 @@ gateway = JavaGateway()
 atexit.register(at_exit)
 ```
 
-> 参考
-・ [PythonからJavaを呼び出す簡単な方法](https://qiita.com/riverwell/items/e90cbbfdac439e6e9d30)
-・ [Getting Started with Py4J](https://www.py4j.org/getting_started.html)
+> 参考  
+・ [PythonからJavaを呼び出す簡単な方法](https://qiita.com/riverwell/items/e90cbbfdac439e6e9d30)  
+・ [Getting Started with Py4J](https://www.py4j.org/getting_started.html)  
