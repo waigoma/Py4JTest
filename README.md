@@ -38,6 +38,7 @@ public class Main {
 `test.py`
 ```Python
 import subprocess
+import time
 
 from py4j.java_gateway import JavaGateway
 
