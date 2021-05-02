@@ -13,7 +13,7 @@ def at_exit():
 
 # jarパスを指定して実行
 cmd = (["java", "-jar", "../out/artifacts/Py4JTest_jar/Py4JTest.jar"])
-p = subprocess.Popen(cmd)
+subprocess.Popen(cmd)
 
 # サーバー起動待ち
 time.sleep(3)
@@ -21,7 +21,7 @@ time.sleep(3)
 # JVMへ接続
 gateway = JavaGateway()
 
-# 処理終了時処理登録
+# 終了時実行処理を登録
 atexit.register(at_exit)
 
 # java.util.Randomインスタンスを生成
