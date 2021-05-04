@@ -82,6 +82,7 @@ def at_exit():
   gateway.shutdown()
   print("Gateway Server ShutDowned.)
 
+
 # Javaで建てたGatewayに接続
 gateway = JavaGateway()
 # 処理終了時、実行処理登録
